@@ -986,7 +986,7 @@ class MainWindow(gtk.Window):
         # Plus  = [43,65451]   Zoom In
         elif keyval in [45, 65453]:
             self.do_zoom(zoom + 1, zoom, True)
-        elif keyval in [43, 65451]:
+        elif keyval in [43, 61, 65451]:
             self.do_zoom(zoom - 1, zoom, True)
 
         # Space = 32   ReCenter the GPS
